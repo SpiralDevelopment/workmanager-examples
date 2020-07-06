@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/simple_worker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Simple Worker"/>
+
+    <Button
+        android:id="@+id/constrained_worker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Worker with constraints"/>
+
+    <Button
+        android:id="@+id/input_worker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Worker with input data"/>
+
+    <Button
+        android:id="@+id/unique_worker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Unique Worker"/>
+
+    <Button
+        android:id="@+id/observe_worker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Observe Workers"/>
+
+    <Button
+        android:id="@+id/worker_with_output"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Worker with output"/>
+
+    <Button
+        android:id="@+id/chaining_workers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chaining Workers" />
+
+    <Button
+        android:id="@+id/cancel_worker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel Workers" />
+</LinearLayout>

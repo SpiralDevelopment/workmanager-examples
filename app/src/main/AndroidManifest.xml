@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.spiraldev.workmanagerwithexamples">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".SimpleWorkers.SimpleWorkersActivity"/>
+        <activity android:name=".ConstrainedWorkers.ConstrainedWorkersActivity"/>
+        <activity android:name=".WorkersWithInput.WorkerWithInputActivity"/>
+        <activity android:name=".UniqueWorkers.UniqueWorkerActivity"/>
+        <activity android:name=".ObserveWorkers.ObserveWorkersActivity"/>
+        <activity android:name=".WorkersWithOutput.WorkerWithOutputActivity"/>
+        <activity android:name=".ChainingWorkers.ChainingWorkersActivity"/>
+        <activity android:name=".CancelWorkers.CancelWorkersActivity"/>
+
+    </application>
+
+</manifest>
