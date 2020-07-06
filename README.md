@@ -6,7 +6,7 @@
 1. [Constrains][2] - Learn how to include certain constraints for workers
 1. [Pass Input Data][3] - Learn how to pass input data to the workers on their start
 1. [Unique Worker][4] - Example of creating unique worker - the one that does not get duplicated
-1. [Observer Workers][5] - Learn how to observe the current status of the workers as they run
+1. [Observe Workers][5] - Learn how to observe the current status of the workers as they run
 1. [Get Output Data][6] - Example of getting an output data from workers after they finish
 1. [Chaining Workers][7] - See how you can chain several workers to run them in sequence
 1. [Cancel Workers][8] - Cancel the worker by its ID
